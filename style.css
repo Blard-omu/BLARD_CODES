@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+header{
+    background-color: rgb(38, 2, 63);
+    border-bottom: 1px solid violet
+}
+
+
+
+
+
+
+.nav-item{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+   .logo,.nav-item>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+.logo:hover{
+    color: pink;
+}
+
+.nav-item>a:hover{
+    color: white;
+    border-bottom:  solid pink;
+    text-transform: uppercase;
+}
+
+.Home_Page{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to right, rgb(38, 2, 63), rgba(126, 2, 215, 0.769)); */
+    /* background-image: url(https://c4.wallpaperflare.com/wallpaper/383/883/768/technology-4k-desktop-background-wallpaper-preview.jpg); */
+    background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif);
+}
+
+@media (max-width:678px) {
+    .Home_Page{
+        display: block;
+        height: auto;
+    }
+    
+}
+
+.hero-image>img{
+    border: 3px solid pink;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
