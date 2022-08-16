@@ -25,8 +25,9 @@ header{
 
 .nav-item>a:hover{
     color: white;
-    border-bottom:  solid whitesmoke;
+    text-decoration: 2px underline;
 }
+
 
 .Home_Page{
     display: flex;
@@ -35,7 +36,8 @@ header{
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif);
+    background-image: linear-gradient( to right,indigo,rgb(55, 3, 55));
+    background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif); 
 }
 
 @media (max-width:678px) {
@@ -44,6 +46,7 @@ header{
         flex-direction: column-reverse;
         height: auto;
     }
+
 
     
 }
