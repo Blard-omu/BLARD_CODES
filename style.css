@@ -33,7 +33,7 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient( to right,indigo,rgb(55, 3, 55));
