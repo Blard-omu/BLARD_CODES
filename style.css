@@ -10,11 +10,6 @@ header{
     border-bottom: 1px solid violet
 }
 
-
-
-
-
-
 .nav-item{
     padding-left: 20px;
 }
@@ -24,15 +19,13 @@ header{
     color: whitesmoke;
 }
 
-
-
 .logo:hover{
     color: pink;
 }
 
 .nav-item>a:hover{
     color: white;
-    border-bottom:  solid pink;
+    border-bottom:  solid whitesmoke;
 }
 
 .Home_Page{
@@ -47,17 +40,31 @@ header{
 
 @media (max-width:678px) {
     .Home_Page{
-        display: block;
+        display: flex;
+        flex-direction: column-reverse;
         height: auto;
     }
+
     
 }
 
+
 .hero-image>img{
-    margin-left: 2rem;
-    margin-top: 3rem;
-    border: 3px solid pink;
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    border: 1px solid white; 
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+}
+
+.icon{
+    width: 80%;
+    height: 44px;
+    margin: 2rem;
+    /* border: 3px solid pink; */
+    /* order-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;b */
+
 }
 
