@@ -34,18 +34,34 @@ header{
     flex-direction: row;
     width: 100%;
     height: auto;
+    padding-bottom: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient( to right,indigo,rgb(55, 3, 55));
     background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif); 
+}
+.home-content button{
+    width: 50%;
 }
 
 @media (max-width:678px) {
     .Home_Page{
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
         height: auto;
     }
+
+    .home-content p{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .home-content button{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
 
 
     
