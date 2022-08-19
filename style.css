@@ -38,10 +38,12 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     background-image: linear-gradient( to right,indigo,rgb(55, 3, 55));
-    background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif); 
+    background-image: url(./images/Animated\ bg.jpeg); 
 }
 .home-content button{
     width: 50%;
+    filter: drop-shadow(4px 6px 10px rgb(3, 3, 40));
+
 }
 
 @media (max-width:678px) {
@@ -55,6 +57,8 @@ header{
     .home-content p{
         padding-left: 2rem;
         padding-right: 2rem;
+        filter: drop-shadow(4px 6px 10px rgb(3, 3, 40));
+
     }
 
     .home-content button{
@@ -75,15 +79,17 @@ header{
     border: 1px solid white; 
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    filter: grayscale(30%);
+    opacity: 0.5;
+    filter: drop-shadow(4px 6px 10px black);
 }
 
 .icon{
     width: 80%;
     height: 44px;
     margin: 2rem;
-    /* border: 3px solid pink; */
-    /* order-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;b */
+    filter: drop-shadow(4px 6px 10px black);
+
 
 }
 
