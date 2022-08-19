@@ -14,17 +14,12 @@ header{
     padding-left: 20px;
 }
 
-   .logo,.nav-item>a{
+   .nav-item>a{
     text-decoration: none;
-    color: whitesmoke;
 }
 
-.logo:hover{
-    color: pink;
-}
 
-.nav-item>a:hover{
-    color: white;
+.nav-link:hover{
     text-decoration: 2px underline;
 }
 
@@ -42,8 +37,30 @@ header{
 }
 .home-content button{
     width: 50%;
+    color: rgba(245, 222, 179, 0.857);
 }
 
+.home-content p{
+    color: rgba(245, 222, 179, 0.857);
+}
+
+.hero-image>img{
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    border: 1px solid white; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.icon{
+    width: 80%;
+    height: 44px;
+    margin: 2rem;
+}
+
+
+/* Media Query */
 @media (max-width:678px) {
     .Home_Page{
         display: flex;
@@ -61,29 +78,9 @@ header{
     display: block;
     width: 90%;
     margin: auto;
+}   
 }
 
 
-    
-}
 
-
-.hero-image>img{
-    width: 80%;
-    height: auto;
-    margin: 2rem;
-    border: 1px solid white; 
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-}
-
-.icon{
-    width: 80%;
-    height: 44px;
-    margin: 2rem;
-    /* border: 3px solid pink; */
-    /* order-top-left-radius: 40%;
-    border-bottom-right-radius: 40%;b */
-
-}
 
