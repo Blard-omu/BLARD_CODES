@@ -32,8 +32,9 @@ header{
     padding-bottom: 4rem;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: linear-gradient( to right,indigo,rgb(55, 3, 55));
-    background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif); 
+    /* background-image: linear-gradient( to right,indigo,rgb(55, 3, 55)); */
+    background-image: linear-gradient( to right, black, grey);
+    /* background-image: url(https://www.gifstop.com/images/backgrounds/blackstar1.gif);  */
 }
 .home-content button{
     width: 50%;
@@ -42,6 +43,10 @@ header{
 
 .home-content p{
     color: rgba(245, 222, 179, 0.857);
+    filter: drop-shadow(2px 4px 8px rgb(3, 92, 3));
+    font-family: 'montserrat';
+    font-weight: 700;
+
 }
 
 .hero-image>img{
@@ -51,12 +56,15 @@ header{
     border: 1px solid white; 
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
+    filter: drop-shadow(2px 4px 8px rgba(245, 222, 179, 0.857));
 }
 
 .icon{
     width: 80%;
     height: 44px;
     margin: 2rem;
+    filter: drop-shadow(2px 4px 8px grey);
+
 }
 
 
@@ -72,6 +80,8 @@ header{
     .home-content p{
         padding-left: 2rem;
         padding-right: 2rem;
+        font-family: 'outfit';
+        font-weight: 500;
     }
 
     .home-content button{
