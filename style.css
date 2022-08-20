@@ -5,6 +5,12 @@
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
 
+.blard-logo{
+    width: 6rem;
+    border-radius: 50%;
+    filter: grayscale(50%);
+}
+
 header{
     background-color: rgb(38, 2, 63);
     border-bottom: 1px solid violet
@@ -52,6 +58,8 @@ header{
         flex-direction: column-reverse;
         align-items: center;
         height: auto;
+        background-image: url(./images/anime\ bgg.webp); 
+
     }
 
     .home-content p{
@@ -67,8 +75,13 @@ header{
     margin: auto;
 }
 
+.blard-logo{
+    width: 3rem;
+    border-radius: 50%;
+    filter: grayscale(60%);
+}
 
-    
+   
 }
 
 
@@ -79,8 +92,6 @@ header{
     border: 1px solid white; 
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
-    filter: grayscale(30%);
-    opacity: 0.5;
     filter: drop-shadow(4px 6px 10px black);
 }
 
