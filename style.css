@@ -48,7 +48,7 @@ header{
 }
 .home-content button{
     width: 50%;
-    filter: drop-shadow(4px 6px 10px rgb(3, 3, 40));
+    /* filter: drop-shadow(4px 6px 10px rgb(3, 3, 40)); */
 
 }
 
@@ -73,6 +73,7 @@ header{
     display: block;
     width: 90%;
     margin: auto;
+    margin-top: 3rem;
 }
 
 .blard-logo{
@@ -100,7 +101,5 @@ header{
     height: 44px;
     margin: 2rem;
     filter: drop-shadow(4px 6px 10px black);
-
-
 }
 
