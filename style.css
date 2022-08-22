@@ -93,7 +93,7 @@ header{
     border: 1px solid white; 
     border-top-left-radius: 30%;
     border-bottom-right-radius: 30%;
-    filter: drop-shadow(4px 6px 10px black);
+    filter: drop-shadow(4px 6px 10px white);
 }
 
 .icon{
