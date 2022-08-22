@@ -48,6 +48,7 @@ header{
 }
 .home-content button{
     width: 50%;
+    margin-left: 4rem;
 }
 
 .hero-image>img{
@@ -105,3 +106,11 @@ header{
 }  
 }
 
+@media (max-width:771px) {
+    .home-content>p,.home-content>h1{
+        padding-left: 3rem;
+        
+    }
+
+    
+}
