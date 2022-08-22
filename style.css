@@ -7,8 +7,8 @@
 
 .blard-logo{
     width: 4rem;
-    border-radius: 50%;
-    filter: grayscale(50%);
+    border-radius: 20%;
+    /* filter: grayscale(50%); */
 }
 
 header{
@@ -48,15 +48,32 @@ header{
 }
 .home-content button{
     width: 50%;
-    /* filter: drop-shadow(4px 6px 10px rgb(3, 3, 40)); */
-
 }
 
+.hero-image>img{
+    width: 80%;
+    height: auto;
+    margin: 2rem;
+    border: 1px solid white; 
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    filter: drop-shadow(4px 6px 10px white);
+}
+
+.icon{
+    width: 80%;
+    height: 44px;
+    margin: 2rem;
+    filter: drop-shadow(4px 6px 10px black);
+}
+
+/* Media query */
 @media (max-width:678px) {
     .Home_Page{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         height: auto;
         background-image: url(./images/anime\ bgg.webp); 
 
@@ -83,28 +100,8 @@ header{
 
 .blard-logo{
     width: 3rem;
-    border-radius: 50%;
-    filter: grayscale(60%);
-}
-
-   
-}
-
-
-.hero-image>img{
-    width: 80%;
-    height: auto;
-    margin: 2rem;
-    border: 1px solid white; 
-    border-top-left-radius: 30%;
-    border-bottom-right-radius: 30%;
-    filter: drop-shadow(4px 6px 10px white);
-}
-
-.icon{
-    width: 80%;
-    height: 44px;
-    margin: 2rem;
-    filter: drop-shadow(4px 6px 10px black);
+    border-radius: 10%;
+    /* filter: grayscale(60%); */
+}  
 }
 
